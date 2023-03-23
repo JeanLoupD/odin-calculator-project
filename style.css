@@ -158,11 +158,10 @@ footer img {
     }
 
     .bottom-container {
-        padding: 15px;
+        padding: 10px;
     }
 
     .buttons {
-        grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(5, auto);
+        width: 90%;
     }
 }
