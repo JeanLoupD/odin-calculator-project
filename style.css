@@ -156,4 +156,13 @@ footer img {
     .calculator-frame {
         width: 90%;
     }
+
+    .bottom-container {
+        padding: 15px;
+    }
+
+    .buttons {
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(5, auto);
+    }
 }
