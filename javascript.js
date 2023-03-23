@@ -27,9 +27,6 @@ clearAll.addEventListener('click', () => clearScreen());
 //clear last entry button
 clearEntry.addEventListener('click', () => clearLastEntry());
 
-//Plus Minus button
-// plusMinusBtn.addEventListener('click', () => plusMinus());
-
 //Operators button
 operatorBtn.forEach((btn) => {
     btn.addEventListener('click', () => {

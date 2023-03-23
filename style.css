@@ -158,13 +158,10 @@ footer img {
     }
 
     footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
+        position: static;
         font-size: 20px;
         padding: 0;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     footer img {
