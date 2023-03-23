@@ -46,7 +46,7 @@ numBtn.forEach((btn) => {
 });
 
 //Keyboard listener
-document.addEventListener('keydown', keyInput);
+window.addEventListener('keydown', keyInput);
 
 //Function to clear everything
 function clearScreen() {
