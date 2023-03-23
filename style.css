@@ -158,6 +158,7 @@ footer img {
     }
 
     footer {
+        position: relative;
         font-size: 20px;
         padding: 0;
         margin-top: 10px;
