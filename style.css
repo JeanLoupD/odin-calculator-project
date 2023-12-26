@@ -1,10 +1,15 @@
-body {
-    margin-top: 50px;
+.calc-section {
+    padding: 80px 0;
+}
+
+.calc-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .calculator-frame {
-    width: 400px;
-    margin: auto;
+    width: 100%;
 }
 
 .top-container{
@@ -145,12 +150,8 @@ footer img {
 }
 
 @media screen and (max-width: 479px) {
-    .calculator-frame {
-        width: 90%;
-    }
-
-    .buttons {
-        width: 90%;
+    .calc-section {
+        padding: 30px 0;
     }
 
     .btn {
